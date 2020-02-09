@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="scroll.js"></script>
+</head>
+
+<body>
+
+  <div id="main-bar"></div>
+  <script src="nav.js?id=index" id="nav-bar"></script>
+
+  <div class="frontpageimg">
+    <header>
+      <div class="wrapper">
+        <img src="pics/maria.JPG" class="rounded-circle" alt="Maria image">
+        <div class="header_text">
+          <div class="header1">Welcome To My Portfolio!</div>
+          <div class="header2">It's Nice To Meet You</div>
+          <div><button class="header_button" href="#services">About me</button></div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!--Next part-->
+  <div class="container">
+
+    <h2>Projects</h2>
+    <div>
+      <div class="row">
+        <div class="col_3"><img src="pics/new-york-city-336475__480.jpg" class="project_header_img" alt="Maria image">
+          <p>jotain</p>
+        </div>
+        <div class="col_3"><img src="pics/new-york-city-336475__480.jpg" class="project_header_img" alt="Maria image">
+          <p>jotain</p>
+        </div>
+        <div class="col_3"><img src="pics/new-york-city-336475__480.jpg" class="project_header_img" alt="Maria image">
+          <p>jotain</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col_3"><img src="pics/new-york-city-336475__480.jpg" class="project_header_img" alt="Maria image">
+          <p>jotain</p>
+        </div>
+        <div class="col_3"><img src="pics/new-york-city-336475__480.jpg" class="project_header_img" alt="Maria image">
+          <p>jotain</p>
+        </div>
+        <div class="col_3"><img src="pics/new-york-city-336475__480.jpg" class="project_header_img" alt="Maria image">
+          <p>jotain</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Footer</p>
+  </footer>
+
+  <!--loppu-->
+  <script>
+
+    function myNavBar() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
