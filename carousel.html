@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+* {
+box-sizing: border-box
+}
+.mySlides1,
+.mySlides2 {
+display: none
+}
+img {
+vertical-align: middle;
+}
+.slideshow-container {
+max-width: 100%;
+position: relative;
+margin: auto;
+}
+.prev {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+left: 5px;
+color: white;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+background-color: #717171;
+}
+.fa-angle-left {
+color: white;
+font-size: 30px;
+}
+.fa-chevron-right {
+color: red;
+font-size: 30px;
+}
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+@keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+.prev,
+.next,
+.text {
+font-size: 11px
+}
+}
+</style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col_2">
+
+            <div class="slideshow-container">
+                <div class="mySlides1">
+                  <img src="pics/new-york-city-336475__480.jpg" class="project_img" alt="Slide 1" />
+                </div>
+              
+                <div class="mySlides1">
+                    <img src="pics/maria.JPG" class="project_img" alt="Maria image">
+                </div>
+              
+                <div class="mySlides1">
+                  <img src="pics/new-york-city-336475__480.jpg" class="project_img" alt="Slide 1" />
+                </div>
+              
+                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+              </div>
+
+        </div>
+        <div class="col_2">
+            <div class="content">
+                <h2>Projekti X</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula
+                    eros
+                    ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus
+                    auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend
+                    nec
+                    lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis,
+                    ipsum
+                    erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae
+                    neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat
+                    id
+                    blandit sit amet tortor.</p>
+
+                p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula
+                eros
+                ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus
+                auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec
+                lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum
+                erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae
+                neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id
+                blandit sit amet tortor.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col_2">
+            <div class="content">
+                <h2>Projekti X</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula
+                    eros
+                    ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus
+                    auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend
+                    nec
+                    lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis,
+                    ipsum
+                    erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae
+                    neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat
+                    id
+                    blandit sit amet tortor.</p>
+
+                p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula
+                eros
+                ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus
+                auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec
+                lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum
+                erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae
+                neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id
+                blandit sit amet tortor.</p>
+            </div>
+        </div>
+
+        <div class="col_2">
+
+            <div class="slideshow-container">
+                <div class="mySlides2">
+                    <img src="pics/new-york-city-336475__480.jpg" class="project_img" alt="Slide 1" />
+                </div>
+              
+                <div class="mySlides2">
+                    <img src="pics/maria.JPG" class="project_img" alt="Maria image">
+                </div>
+              
+                <div class="mySlides2">
+                    <img src="pics/new-york-city-336475__480.jpg" class="project_img" alt="Slide 1" />
+                </div>
+              
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+              </div>
+
+            </div>
+            <br>
+        </div>
+
+    </div>
+
+    <script>
+        var slideIndex = [1, 1];
+        var slideId = ["mySlides1", "mySlides2"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+
+        function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
+            var i;
+            var x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) { slideIndex[no] = 1 }
+            if (n < 1) { slideIndex[no] = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex[no] - 1].style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
+
+</body>

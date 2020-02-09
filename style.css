@@ -236,6 +236,7 @@ img{
     margin: 0 !important;
     padding: 0 !important;
     text-align: center;
+    display: block;
   }
   .col_3{
     float: left;
